@@ -1,0 +1,53 @@
+I need to create a React Native app that replicates the core functionality of the iPhone's default alarm app, with one key difference: users must walk approximately 3 meters to disable the alarm. The app will connect to an MCP server I've already set up.
+Please help me develop this app with the following requirements:
+
+Core Alarm Features:
+
+Create, edit, and delete alarms
+Set repeating alarms for specific days of the week
+Custom alarm names/labels
+Multiple alarm tones with preview option
+Snooze functionality
+Visual interface similar to iPhone's alarm app
+
+
+Walk-to-Disable Feature:
+
+Use the device's accelerometer/pedometer to detect walking motion
+Implement a distance tracking algorithm to measure approximately 3 meters of movement
+Clear UI prompting user to walk to disable the alarm
+Fallback mechanism for users with mobility limitations
+Prevent "cheating" by detecting genuine walking motion versus shaking the phone
+
+
+MCP Server Integration:
+
+Connect to my existing MCP server
+Sync alarm data across devices
+Implement proper authentication and data security
+
+
+Technical Architecture:
+
+Propose a component structure for the app
+Suggest state management approach (Redux, Context API, etc.)
+Database structure for storing alarm settings
+Background processes to trigger alarms even when app is closed
+
+
+UI/UX Design:
+
+Clean, intuitive interface matching iOS design principles
+Dark/light mode support
+Accessible design for users with disabilities
+Animation and transitions consistent with iOS
+
+
+
+Please provide:
+
+Recommended React Native libraries for each major component
+Key code snippets for critical functionality (alarm creation, step detection, etc.)
+Mockups or descriptions of the main screens
+Implementation strategy and potential technical challenges
+Testing approach for ensuring reliability
